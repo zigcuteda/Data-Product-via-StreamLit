@@ -20,7 +20,7 @@ Develop and deploy an interactive dashboard allowing educators to input student 
 
 ## 2. Data Engineering & Architecture
 
-* **Dataset:** `StudentPerformanceFactors.csv` (6,607 records, 20 features).
+* **Dataset:** `StudentPerformanceFactors.csv` (6,607 records, 20 features) , [Kaggle link](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)
 * **Target Variable:** `Exam_Score`
 * **Data Cleaning:** Categorical columns with missing values (`Teacher_Quality`, `Parental_Education_Level`, `Distance_from_Home`) were imputed using the Mode. Numerical missing values were imputed using the Median.
 * **Feature Engineering:** Applied One-Hot Encoding for all categorical variables to transform them into a machine-readable format.
